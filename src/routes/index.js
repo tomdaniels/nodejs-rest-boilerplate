@@ -1,5 +1,5 @@
-const create = require('./create');
-
+const firstRoute = require('./first-route');
 module.exports = function(app, db) {
-  create(app, db);
+  firstRoute(app, db);
+  // Other route groups could go here, in the future
 };
