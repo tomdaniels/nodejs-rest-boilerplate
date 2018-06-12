@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-rest-boilerplate",
+  "version": "1.0.0",
+  "description": "nodejs boilerplate for RESTful api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom Daniels",
+  "license": "ISC"
+}
