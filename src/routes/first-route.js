@@ -1,6 +1,5 @@
 module.exports = function(app, db) {
-  app.post('/foo', (req, res) => {
-    console.log(req.body);
+  app.get('/foo', (req, res) => {
     res.send('bar')
     });
 };
